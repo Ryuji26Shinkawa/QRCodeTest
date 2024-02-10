@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37013BE02B7705EC003FBB4D /* ShowCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37013BDF2B7705EC003FBB4D /* ShowCodeView.swift */; };
+		37013BE22B770685003FBB4D /* ReloadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37013BE12B770685003FBB4D /* ReloadButton.swift */; };
+		37013BE42B77A251003FBB4D /* QRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37013BE32B77A251003FBB4D /* QRCodeGenerator.swift */; };
+		37013BE62B77A86D003FBB4D /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37013BE52B77A86D003FBB4D /* UIImageExtension.swift */; };
 		37BA4F642B7684BE00C0D0B9 /* QRCodeTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BA4F632B7684BE00C0D0B9 /* QRCodeTestApp.swift */; };
 		37BA4F662B7684BE00C0D0B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BA4F652B7684BE00C0D0B9 /* ContentView.swift */; };
 		37BA4F682B7684C200C0D0B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37BA4F672B7684C200C0D0B9 /* Assets.xcassets */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37013BDF2B7705EC003FBB4D /* ShowCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCodeView.swift; sourceTree = "<group>"; };
+		37013BE12B770685003FBB4D /* ReloadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReloadButton.swift; sourceTree = "<group>"; };
+		37013BE32B77A251003FBB4D /* QRCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGenerator.swift; sourceTree = "<group>"; };
+		37013BE52B77A86D003FBB4D /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		37BA4F602B7684BE00C0D0B9 /* QRCodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37BA4F632B7684BE00C0D0B9 /* QRCodeTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeTestApp.swift; sourceTree = "<group>"; };
 		37BA4F652B7684BE00C0D0B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +64,10 @@
 			children = (
 				37BA4F632B7684BE00C0D0B9 /* QRCodeTestApp.swift */,
 				37BA4F652B7684BE00C0D0B9 /* ContentView.swift */,
+				37013BDF2B7705EC003FBB4D /* ShowCodeView.swift */,
+				37013BE12B770685003FBB4D /* ReloadButton.swift */,
+				37013BE32B77A251003FBB4D /* QRCodeGenerator.swift */,
+				37013BE52B77A86D003FBB4D /* UIImageExtension.swift */,
 				37BA4F672B7684C200C0D0B9 /* Assets.xcassets */,
 				37BA4F692B7684C200C0D0B9 /* Preview Content */,
 			);
@@ -141,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37013BE42B77A251003FBB4D /* QRCodeGenerator.swift in Sources */,
+				37013BE22B770685003FBB4D /* ReloadButton.swift in Sources */,
 				37BA4F662B7684BE00C0D0B9 /* ContentView.swift in Sources */,
 				37BA4F642B7684BE00C0D0B9 /* QRCodeTestApp.swift in Sources */,
+				37013BE02B7705EC003FBB4D /* ShowCodeView.swift in Sources */,
+				37013BE62B77A86D003FBB4D /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
