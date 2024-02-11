@@ -11,6 +11,12 @@
 		37013BE22B770685003FBB4D /* ReloadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37013BE12B770685003FBB4D /* ReloadButton.swift */; };
 		37013BE42B77A251003FBB4D /* QRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37013BE32B77A251003FBB4D /* QRCodeGenerator.swift */; };
 		37013BE62B77A86D003FBB4D /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37013BE52B77A86D003FBB4D /* UIImageExtension.swift */; };
+		37013BE82B784DEF003FBB4D /* ReadCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37013BE72B784DEF003FBB4D /* ReadCodeView.swift */; };
+		37013BEA2B784F00003FBB4D /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37013BE92B784F00003FBB4D /* SecondView.swift */; };
+		37013BEC2B784F8B003FBB4D /* QrCodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37013BEB2B784F8B003FBB4D /* QrCodeScannerView.swift */; };
+		37013BEE2B784FFD003FBB4D /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37013BED2B784FFD003FBB4D /* CameraPreview.swift */; };
+		37013BF02B78506A003FBB4D /* QrCodeCameraDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37013BEF2B78506A003FBB4D /* QrCodeCameraDelegate.swift */; };
+		37013BF22B7850A6003FBB4D /* ReadCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37013BF12B7850A6003FBB4D /* ReadCodeViewModel.swift */; };
 		37BA4F642B7684BE00C0D0B9 /* QRCodeTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BA4F632B7684BE00C0D0B9 /* QRCodeTestApp.swift */; };
 		37BA4F662B7684BE00C0D0B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BA4F652B7684BE00C0D0B9 /* ContentView.swift */; };
 		37BA4F682B7684C200C0D0B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37BA4F672B7684C200C0D0B9 /* Assets.xcassets */; };
@@ -23,6 +29,13 @@
 		37013BE12B770685003FBB4D /* ReloadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReloadButton.swift; sourceTree = "<group>"; };
 		37013BE32B77A251003FBB4D /* QRCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGenerator.swift; sourceTree = "<group>"; };
 		37013BE52B77A86D003FBB4D /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		37013BE72B784DEF003FBB4D /* ReadCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadCodeView.swift; sourceTree = "<group>"; };
+		37013BE92B784F00003FBB4D /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		37013BEB2B784F8B003FBB4D /* QrCodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeScannerView.swift; sourceTree = "<group>"; };
+		37013BED2B784FFD003FBB4D /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		37013BEF2B78506A003FBB4D /* QrCodeCameraDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeCameraDelegate.swift; sourceTree = "<group>"; };
+		37013BF12B7850A6003FBB4D /* ReadCodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadCodeViewModel.swift; sourceTree = "<group>"; };
+		37013BF32B785145003FBB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		37BA4F602B7684BE00C0D0B9 /* QRCodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37BA4F632B7684BE00C0D0B9 /* QRCodeTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeTestApp.swift; sourceTree = "<group>"; };
 		37BA4F652B7684BE00C0D0B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,12 +75,19 @@
 		37BA4F622B7684BE00C0D0B9 /* QRCodeTest */ = {
 			isa = PBXGroup;
 			children = (
+				37013BF32B785145003FBB4D /* Info.plist */,
 				37BA4F632B7684BE00C0D0B9 /* QRCodeTestApp.swift */,
 				37BA4F652B7684BE00C0D0B9 /* ContentView.swift */,
 				37013BDF2B7705EC003FBB4D /* ShowCodeView.swift */,
 				37013BE12B770685003FBB4D /* ReloadButton.swift */,
 				37013BE32B77A251003FBB4D /* QRCodeGenerator.swift */,
 				37013BE52B77A86D003FBB4D /* UIImageExtension.swift */,
+				37013BE72B784DEF003FBB4D /* ReadCodeView.swift */,
+				37013BE92B784F00003FBB4D /* SecondView.swift */,
+				37013BEB2B784F8B003FBB4D /* QrCodeScannerView.swift */,
+				37013BED2B784FFD003FBB4D /* CameraPreview.swift */,
+				37013BEF2B78506A003FBB4D /* QrCodeCameraDelegate.swift */,
+				37013BF12B7850A6003FBB4D /* ReadCodeViewModel.swift */,
 				37BA4F672B7684C200C0D0B9 /* Assets.xcassets */,
 				37BA4F692B7684C200C0D0B9 /* Preview Content */,
 			);
@@ -153,10 +173,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37013BF02B78506A003FBB4D /* QrCodeCameraDelegate.swift in Sources */,
+				37013BEC2B784F8B003FBB4D /* QrCodeScannerView.swift in Sources */,
 				37013BE42B77A251003FBB4D /* QRCodeGenerator.swift in Sources */,
 				37013BE22B770685003FBB4D /* ReloadButton.swift in Sources */,
+				37013BEA2B784F00003FBB4D /* SecondView.swift in Sources */,
 				37BA4F662B7684BE00C0D0B9 /* ContentView.swift in Sources */,
+				37013BEE2B784FFD003FBB4D /* CameraPreview.swift in Sources */,
+				37013BE82B784DEF003FBB4D /* ReadCodeView.swift in Sources */,
 				37BA4F642B7684BE00C0D0B9 /* QRCodeTestApp.swift in Sources */,
+				37013BF22B7850A6003FBB4D /* ReadCodeViewModel.swift in Sources */,
 				37013BE02B7705EC003FBB4D /* ShowCodeView.swift in Sources */,
 				37013BE62B77A86D003FBB4D /* UIImageExtension.swift in Sources */,
 			);
@@ -295,6 +321,8 @@
 				DEVELOPMENT_TEAM = 76F4QKH7JS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QRCodeTest/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "QRCodeを読み取る為に使用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -324,6 +352,8 @@
 				DEVELOPMENT_TEAM = 76F4QKH7JS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QRCodeTest/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "QRCodeを読み取る為に使用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
