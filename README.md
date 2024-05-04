@@ -15,4 +15,5 @@
 バックグラウンドスレッドで処理するために参考にしたリンク  
 - [【Swift】この時期だから見直すiOS10の新機能 AVCapturePhotoOutput AVCaptureSettings など](https://qiita.com/shiz/items/d7738f998e4be2d37c0f)  
 - [Swiftでの非同期処理GDP｜ディスパッチキューの解説｜DispatchQueue.globalとmain](https://ticklecode.com/swfitgdp/#%E3%83%87%E3%82%A3%E3%82%B9%E3%83%91%E3%83%83%E3%83%81%E3%82%AD%E3%83%A5%E3%83%BC%E3%81%B8%E3%81%AE%E3%82%BF%E3%82%B9%E3%82%AF%E8%BF%BD%E5%8A%A0)
-
+### アルバムからのQRコード読取
+- [シーンに応じた使いやすいQRコード読み取り機能を実装しよう（原稿） #iosdc](https://zenn.dev/jollyjoester/articles/a053d4e25523b6)
