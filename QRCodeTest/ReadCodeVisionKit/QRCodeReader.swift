@@ -45,9 +45,13 @@ struct QRCodeReader: UIViewControllerRepresentable {
         }
 
         func dataScanner(_ dataScanner: DataScannerViewController, didAdd addedItems: [RecognizedItem], allItems: [RecognizedItem]) {
+            // 取得したデータはallItemsに溜め込まれる
+            // addedItemsは追加されたデータ
+            // allItemsの一番最初のデータをアンラップして取り出す
             guard let item = allItems.first else { return }
             switch item {
-            case .barcode(let recognizedCode):
+            case .barcode(let recognizedCode): // 識別した種類がbarcodeの場合
+                // ここで取得したデータをonRecognizeクロージャに返す
                 parent.onRecognize(recognizedCode)
             default:
                 break
