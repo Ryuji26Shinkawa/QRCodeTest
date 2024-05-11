@@ -17,6 +17,9 @@ struct ContentView: View {
                 NavigationLink("Read QR Code") {
                     ReadCodeView()
                 }
+                NavigationLink("Read QR Code with VisionKit") {
+                    QRReadView()
+                }
             }
             .padding()
         }
