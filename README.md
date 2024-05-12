@@ -19,3 +19,5 @@
 - [iOS16からのQRコードの読み取り](https://qiita.com/Ryu0118/items/4ee5c67558476c22318d)
 ### アルバムからのQRコード読取
 - [シーンに応じた使いやすいQRコード読み取り機能を実装しよう（原稿） #iosdc](https://zenn.dev/jollyjoester/articles/a053d4e25523b6)
+- [【SwiftUI】iOS16+のPhotosPicker｜フルSwiftUIでのフォトピッカー実装方法](https://blog.code-candy.com/swiftui_photospicker/)
+- [SwiftUI QRコード読み取り Chat-GPT](https://chat.openai.com/share/b1e64b00-f232-496a-9bdb-aa2281a38af1)
